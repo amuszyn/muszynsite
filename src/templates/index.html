@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMuszyn</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="active">Muszyn</a>
+        <div class="navbar-right">
+            <a href="https://github.com/Laglicious">GitHub</a>
+            <a href="https://www.linkedin.com/in/almuszynski/">LinkedIn</a>
+            <a href="https://drive.google.com/file/d/13NGmVNxVF7KvXMt1MlSqjn98sGcBjWm5/view?usp=share_link">Resume</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <div class="content" id="content">
+        <div class="center">
+            <h1 id="welcome-text">Alexander Muszynski</h1>
+            <span class="atom-line"></span>
+        </div>
+    </div>
+
+    <div class="description" id="description">
+        <div class="center">
+            <h3>Hey There &#x1F44B</h3>
+            <p>I'm Alex Muszynski, a Cloud Engineer IC at <a href="https://hello.whisker.com/">Whisker</a></p>
+            <p>My current focus is expanding my knowledge on cloud architecture patterns specifically <a
+                    href="https://microservices.io/">microservices</a>.</p>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="card-container" id="card-container">
+            <h2>Whisker</h2>
+            <div class="card">
+                <div class="date">December 2022 - Present</div>
+                <div class="title">Cloud Engineer</div>
+                <ul class="details">
+                    <li>Rearchitected internal web application responsible for IoT monitoring and control</li>
+                    <li>Designed and lead an agnostic over-air-update project for a fleet of 500,00+ IoT devices</li>
+                    <li>Contributed to a simulation of robots based on real-time data that can be interacted with to
+                        streamline efficient testing</li>
+                    <li>Collaborated with peers to create an algorithm that connects weight information with specific
+                        pet profiles</li>
+                    <li>Worked with and maintained a data-lake to perform analytics on IoT data</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="date">September 2022 - December 2022</div>
+                <div class="title">Mobile App Developer Intern</div>
+                <ul class="details">
+                    <li>Worked with Flutter + Dart for iOS & Android development</li>
+                    <li>Integrated the UI and Data Layer for Pet Profile a feature allowing users to input information
+                        about their pets, which helps monitor pet IoT device interaction</li>
+                </ul>
+            </div>
+            <!-- Add more cards as needed -->
+            <div class="card">
+                <div class="date">May 2022 - September 2022</div>
+                <div class="title">Firware Engineer Intern</div>
+                <ul class="details">
+                    <li>Worked with a mentor to create a web GUI that tracked robot Wi-Fi connectivity</li>
+                    <li>Implemented Over-The-Air (OTA) updates using MQTT messaging</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Link to external JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
