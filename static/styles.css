@@ -1,13 +1,12 @@
-/* styles.css */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom right, #ffffff, #85918f);
+  background: linear-gradient(to bottom right, #4568DC, #B06AB3);
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -41,9 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 60px);
-  /* Adjust height as needed (subtract navbar height) */
   overflow: auto;
-  /* Enable scrolling */
 }
 
 .content h2 {
@@ -61,11 +58,8 @@ body {
 .description p {
   margin: 0 auto;
   max-width: 600px;
-  /* Adjust as needed */
 }
 
-/* styles.css */
-/* Existing styles remain unchanged */
 
 .timeline {
   display: flex;
@@ -75,16 +69,14 @@ body {
   padding: 20px;
 }
 
-/* Apply styles to the card container */
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Apply styles to the individual card */
 .card {
-  background: linear-gradient(to bottom right, #ffffff, #85918f);
+  background: transparent;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
@@ -101,9 +93,7 @@ body {
 
 .card .details {
   list-style-type: disc;
-  /* Change bullet points to discs */
   padding-left: 20px;
-  /* Add left padding to adjust bullet point position */
 }
 
 .card .date {
@@ -122,14 +112,10 @@ body {
 
 .group {
   margin-bottom: 20px;
-  /* Add spacing between groups */
 }
 
 .group h2 {
   font-size: 20px;
-  /* Adjust font size of group headers */
   color: #333;
-  /* Adjust color of group headers */
   margin-bottom: 10px;
-  /* Add spacing below group headers */
 }
