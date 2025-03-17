@@ -120,10 +120,19 @@ body {
   margin-bottom: 10px;
 }
 
+
+.skills-section h3 {
+  text-align: center;
+}
+
+
 .skills-section {
+  max-width: 100%;
+  overflow: hidden;
   padding: 20px;
   background-color: transparent;
   margin-bottom: 30px;
+
 }
 
 .skills-container {
@@ -132,15 +141,15 @@ body {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  max-width: 100%;
 }
 
 .skill-card {
-  background-color: #B06AB3;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  min-width: 200px;
   flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  /* Prevents it from being too large */
+  word-wrap: break-word;
 }
 
 .skill-card h4 {
